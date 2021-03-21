@@ -1,0 +1,70 @@
+@page {
+  size: 8.5in 11in;
+  margin: 10%;
+
+  @top-left {
+    color: red;
+    content: "Hamlet";
+  }
+  @top-right {
+    color: yellow;
+    content: "Page " counter(page);
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+section {
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+ul.toc {
+  max-width: 40em;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+ul.toc li::before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . ";
+}
+ul.toc span:first-child {
+  padding-right: 0.33em;
+  background: white;
+}
+ul.toc span + span {
+  float: right;
+  padding-left: 0.33em;
+  background: white;
+}
