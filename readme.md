@@ -24,7 +24,9 @@ And as an answer to this SO thread:
 
 In the [CSS Paged Media Module Level 3](https://drafts.csswg.org/css-page/) combined [CSS GCPM 3 spec](https://drafts.csswg.org/css-gcpm/) there is the possibility to define a DOM target that acts as a footer or header in the printed page.
 
-There are tools like [PrinceXML](https://www.princexml.com/), [AntennaHouse](https://www.antennahouse.com/formatter-v7) or [WeasyPrint](https://weasyprint.org/) that support this spec!
+There are tools like [PrinceXML](https://www.princexml.com/), [AntennaHouse](https://www.antennahouse.com/formatter-v7), [PDFReactor](https://www.pdfreactor.com/) or [WeasyPrint](https://weasyprint.org/) that support this spec!
+
+A variety of tools can be compared and tested on [https://printcss.live/](https://printcss.live/).
 
 An interesting article about possibilities can be found on [AListApart](https://alistapart.com/article/boom/).
 
